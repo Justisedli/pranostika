@@ -1,2 +1,3 @@
 # pranostika
 # mapapranostika
+# mapapranostika
