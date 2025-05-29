@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9c05815c00446c804d0186e491fa5604 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9c05815c00446c804d0186e491fa5604" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9c05815c00446c804d0186e491fa5604 = L.map(
+                "map_9c05815c00446c804d0186e491fa5604",
+                {
+                    center: [49.8, 15.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1892ce3f4af51a669525a1c9d484840f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1892ce3f4af51a669525a1c9d484840f.addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+            var circle_marker_a8afa0b83708e35c4ea06a89a57865bd = L.circleMarker(
+                [50.2016, 12.9139],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.5, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_97a2f1b9cde4734d505b49f27ef6a812 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14e0d141de5529f1ba4291a1fb1ded5c = $(`<div id="html_14e0d141de5529f1ba4291a1fb1ded5c" style="width: 100.0%; height: 100.0%;">Karlovy Vary (9 dní)</div>`)[0];
+                popup_97a2f1b9cde4734d505b49f27ef6a812.setContent(html_14e0d141de5529f1ba4291a1fb1ded5c);
+            
+        
+
+        circle_marker_a8afa0b83708e35c4ea06a89a57865bd.bindPopup(popup_97a2f1b9cde4734d505b49f27ef6a812)
+        ;
+
+        
+    
+    
+            var circle_marker_49d2cf3d44d29e0fc0942fa6b328ae0b = L.circleMarker(
+                [49.0954, 16.1344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_735e754503e25665e10c70f0b02d8af9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60e181a065256a3788ec02b9d757ca45 = $(`<div id="html_60e181a065256a3788ec02b9d757ca45" style="width: 100.0%; height: 100.0%;">Dukovany (2 dní)</div>`)[0];
+                popup_735e754503e25665e10c70f0b02d8af9.setContent(html_60e181a065256a3788ec02b9d757ca45);
+            
+        
+
+        circle_marker_49d2cf3d44d29e0fc0942fa6b328ae0b.bindPopup(popup_735e754503e25665e10c70f0b02d8af9)
+        ;
+
+        
+    
+    
+            var circle_marker_9291d1dc8146f5bd14ddcb43a7461327 = L.circleMarker(
+                [49.3205, 17.5699],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_7de1ee791e345fceb3d75ea96b98a0ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_205cbabd82e07893c2e55088b4dd08fb = $(`<div id="html_205cbabd82e07893c2e55088b4dd08fb" style="width: 100.0%; height: 100.0%;">Holešov (2 dní)</div>`)[0];
+                popup_7de1ee791e345fceb3d75ea96b98a0ef.setContent(html_205cbabd82e07893c2e55088b4dd08fb);
+            
+        
+
+        circle_marker_9291d1dc8146f5bd14ddcb43a7461327.bindPopup(popup_7de1ee791e345fceb3d75ea96b98a0ef)
+        ;
+
+        
+    
+    
+            var circle_marker_f68c88d9aeed5c7c44b910e747cf3a94 = L.circleMarker(
+                [50.7697, 15.0238],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_38a3fd28f808368b2f7a8207386923bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06aa21db25381b92ad2bb55f9ce00176 = $(`<div id="html_06aa21db25381b92ad2bb55f9ce00176" style="width: 100.0%; height: 100.0%;">Liberec (2 dní)</div>`)[0];
+                popup_38a3fd28f808368b2f7a8207386923bb.setContent(html_06aa21db25381b92ad2bb55f9ce00176);
+            
+        
+
+        circle_marker_f68c88d9aeed5c7c44b910e747cf3a94.bindPopup(popup_38a3fd28f808368b2f7a8207386923bb)
+        ;
+
+        
+    
+    
+            var circle_marker_a66cdee6c45bc20d6896fa88a4f4e8fc = L.circleMarker(
+                [49.6918, 18.1126],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_62b30f3faa986368a787f85951e1f525 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60b031598da570c5ea56abe96f4525a0 = $(`<div id="html_60b031598da570c5ea56abe96f4525a0" style="width: 100.0%; height: 100.0%;">Ostrava-Mošnov (2 dní)</div>`)[0];
+                popup_62b30f3faa986368a787f85951e1f525.setContent(html_60b031598da570c5ea56abe96f4525a0);
+            
+        
+
+        circle_marker_a66cdee6c45bc20d6896fa88a4f4e8fc.bindPopup(popup_62b30f3faa986368a787f85951e1f525)
+        ;
+
+        
+    
+    
+            var circle_marker_446c6fa565153c288db7cf125672740a = L.circleMarker(
+                [50.0158, 15.7402],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_f47aec43cbf64dc5c9b54db463de641b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37447ad448194889807be00fa81ae7e9 = $(`<div id="html_37447ad448194889807be00fa81ae7e9" style="width: 100.0%; height: 100.0%;">Pardubice (2 dní)</div>`)[0];
+                popup_f47aec43cbf64dc5c9b54db463de641b.setContent(html_37447ad448194889807be00fa81ae7e9);
+            
+        
+
+        circle_marker_446c6fa565153c288db7cf125672740a.bindPopup(popup_f47aec43cbf64dc5c9b54db463de641b)
+        ;
+
+        
+    
+    
+            var circle_marker_ba2489160ca4c297e6ef073b3bca149b = L.circleMarker(
+                [49.4525, 17.1347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_f523040ec2840dee70f4d678e829fa3f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82d2e7c42bc8109e595f284f5a8499fc = $(`<div id="html_82d2e7c42bc8109e595f284f5a8499fc" style="width: 100.0%; height: 100.0%;">Prostějov (2 dní)</div>`)[0];
+                popup_f523040ec2840dee70f4d678e829fa3f.setContent(html_82d2e7c42bc8109e595f284f5a8499fc);
+            
+        
+
+        circle_marker_ba2489160ca4c297e6ef073b3bca149b.bindPopup(popup_f523040ec2840dee70f4d678e829fa3f)
+        ;
+
+        
+    
+    
+            var circle_marker_178edee793dbfc453c0309880457b088 = L.circleMarker(
+                [50.6833, 14.041],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_6f84b18c28192996a257352ee429ca91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d94eef6e96b2cf1d36cdcaada100c1a = $(`<div id="html_8d94eef6e96b2cf1d36cdcaada100c1a" style="width: 100.0%; height: 100.0%;">Ústí nad Labem (2 dní)</div>`)[0];
+                popup_6f84b18c28192996a257352ee429ca91.setContent(html_8d94eef6e96b2cf1d36cdcaada100c1a);
+            
+        
+
+        circle_marker_178edee793dbfc453c0309880457b088.bindPopup(popup_6f84b18c28192996a257352ee429ca91)
+        ;
+
+        
+    
+    
+            var circle_marker_b6627a5ed0b8ddfb5e8b109f287e9b9d = L.circleMarker(
+                [48.9519, 14.4697],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_d8c22618cdbe3a11400bfd1ad586dd4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_103c4e18320ee54679466c9750ac18b2 = $(`<div id="html_103c4e18320ee54679466c9750ac18b2" style="width: 100.0%; height: 100.0%;">České Budějovice (2 dní)</div>`)[0];
+                popup_d8c22618cdbe3a11400bfd1ad586dd4d.setContent(html_103c4e18320ee54679466c9750ac18b2);
+            
+        
+
+        circle_marker_b6627a5ed0b8ddfb5e8b109f287e9b9d.bindPopup(popup_d8c22618cdbe3a11400bfd1ad586dd4d)
+        ;
+
+        
+    
+    
+            var circle_marker_099795ebb8be000b51808843e7393e7b = L.circleMarker(
+                [49.9407, 15.3863],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.0, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_bb54e4268db961951fc750f63dca680b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6acf5f5ea634d77aafc0db35ca331ab5 = $(`<div id="html_6acf5f5ea634d77aafc0db35ca331ab5" style="width: 100.0%; height: 100.0%;">Čáslav (2 dní)</div>`)[0];
+                popup_bb54e4268db961951fc750f63dca680b.setContent(html_6acf5f5ea634d77aafc0db35ca331ab5);
+            
+        
+
+        circle_marker_099795ebb8be000b51808843e7393e7b.bindPopup(popup_bb54e4268db961951fc750f63dca680b)
+        ;
+
+        
+    
+    
+            var circle_marker_9578e9ec4e621add7bde54798f8de3a7 = L.circleMarker(
+                [49.153, 16.6888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_694f91722d1b9b0bc557eb5cf418c6f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_75370b6569e7b51397bec6eb098a97b5 = $(`<div id="html_75370b6569e7b51397bec6eb098a97b5" style="width: 100.0%; height: 100.0%;">Brno-Tuřany (1 dní)</div>`)[0];
+                popup_694f91722d1b9b0bc557eb5cf418c6f6.setContent(html_75370b6569e7b51397bec6eb098a97b5);
+            
+        
+
+        circle_marker_9578e9ec4e621add7bde54798f8de3a7.bindPopup(popup_694f91722d1b9b0bc557eb5cf418c6f6)
+        ;
+
+        
+    
+    
+            var circle_marker_227fe40b52344b8678ea2a15eb3140dc = L.circleMarker(
+                [50.4393, 15.3525],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_7feeaa6e5c4a2eb6dd53be44a0e64894 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a880b36f893de4112e2a34407a5391a8 = $(`<div id="html_a880b36f893de4112e2a34407a5391a8" style="width: 100.0%; height: 100.0%;">Jičín (1 dní)</div>`)[0];
+                popup_7feeaa6e5c4a2eb6dd53be44a0e64894.setContent(html_a880b36f893de4112e2a34407a5391a8);
+            
+        
+
+        circle_marker_227fe40b52344b8678ea2a15eb3140dc.bindPopup(popup_7feeaa6e5c4a2eb6dd53be44a0e64894)
+        ;
+
+        
+    
+    
+            var circle_marker_f7c0dd0cdb3491a3be201556e24301f3 = L.circleMarker(
+                [49.7645, 13.3787],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_e62f5754abc4e661537c3cd160cfdcbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a537ca47be4592440907e39f9c6ab5c1 = $(`<div id="html_a537ca47be4592440907e39f9c6ab5c1" style="width: 100.0%; height: 100.0%;">Plzeň-Mikulka (1 dní)</div>`)[0];
+                popup_e62f5754abc4e661537c3cd160cfdcbd.setContent(html_a537ca47be4592440907e39f9c6ab5c1);
+            
+        
+
+        circle_marker_f7c0dd0cdb3491a3be201556e24301f3.bindPopup(popup_e62f5754abc4e661537c3cd160cfdcbd)
+        ;
+
+        
+    
+    
+            var circle_marker_ca029fc4b0a1d1be98a57297944b64e6 = L.circleMarker(
+                [50.1003, 14.2555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.5, "stroke": true, "weight": 3}
+            ).addTo(map_9c05815c00446c804d0186e491fa5604);
+        
+    
+        var popup_e3d6e1160c2cc03c07cb2d280002e186 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f483449e2454058e58d8fd57d07ffa4d = $(`<div id="html_f483449e2454058e58d8fd57d07ffa4d" style="width: 100.0%; height: 100.0%;">Praha-Ruzyně (1 dní)</div>`)[0];
+                popup_e3d6e1160c2cc03c07cb2d280002e186.setContent(html_f483449e2454058e58d8fd57d07ffa4d);
+            
+        
+
+        circle_marker_ca029fc4b0a1d1be98a57297944b64e6.bindPopup(popup_e3d6e1160c2cc03c07cb2d280002e186)
+        ;
+
+        
+    
+</script>
+</html>
